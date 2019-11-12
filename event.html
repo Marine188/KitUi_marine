@@ -8,5 +8,56 @@
   </head>
   <body>
 
+    <div class="container">
+      <div class="row">
+        <div class="mt-4 col col-8 mx-auto">
+
+      	<img alt="Event" style="object-fit: cover; height: 200px; width: 100%; display: block;" src="img/moria.png" />
+
+      <div class="card" >
+        <div class="card-body">
+          <h4 class="card-title mb-3"> Grosse soirée dans les grottes de la Moria</h4>
+          <h5 class="card-subtitle mb-2 text-muted">Organisée par Gilmi </h5>
+          <h5 class="card-subtitle mb-2 text-muted">📍 Grottes de la Moria </h5>
+          <h5 class="card-subtitle mb-2 text-muted"> 2020-02-29 15:48:40 UTC </h5>
+          <h5 class="card-subtitle mb-2 text-muted">✅ 4 participants </h5>
+          <p class="card-text mt-3">  Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,! </p>
+        </div>
+      </div>
+
+
+      	</div>
+
+      	<div class="mt-4 col col-4 mx-auto">
+
+      	<div class="card border-secondary mb-3 col-4" style="max-width: 20rem;">
+        <div class="card-body">
+          <h4 class="card-title">Paiement en CB</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+      		<form action="/events/1/charges" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="+MW3TQ6uqQCfXQFci6JgjKmRpb2sBjVCeoSw6C0EvXup3NLKaUQFGO8wJ1lmS9Wqckl6iEy0ZdGkCGyKjgm5Sw==" />
+      		  <article>
+      		    <label class="amount">
+      		      <span><b>99F</b></span>
+      		    </label>
+      		  </article>
+
+      		  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+      		          data-key=""
+      		          data-description="Daily brunch: let&#39;s eat Dragonfruit with Granola"
+      		          data-amount= "9900"
+      		          data-locale="auto"></script>
+      </form>
+
+        </div>
+
+      </div>
+
+      </div>
+
+
+      </div>
+      </div>
+
   </body>
 </html>
